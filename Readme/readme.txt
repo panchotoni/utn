@@ -1,7 +1,2 @@
 Mis primeros pasos en Gitttttttt
-s
-s
-s
-s
-
-s
+Se edito el PROYECTO
