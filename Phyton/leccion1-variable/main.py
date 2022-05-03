@@ -1,3 +1,4 @@
+'''
 n = 3
 print(n)
 n = "HOLA MUNDO"
@@ -45,3 +46,89 @@ titulo = input("Cual es el nombre del libro?")
 autor = input("Cual es el autor del libro?")
 
 print(titulo, "fue escrito por", autor)
+
+
+operandoA = 8
+operandoB = 5
+suma = operandoB + operandoA
+print("El resultado de la suma :", suma)
+print(f"El resultado de la suma es: {suma} ")
+
+resta = operandoA - operandoB
+print(f"El resultado de la resta es: {resta}")
+
+multi = operandoA * operandoB
+print(f"La multiplicacion es: {multi}")
+
+division = operandoA / operandoB
+print(f"La division es igual a: {division}")
+division = operandoA // operandoB
+print(f"La division (int) es: {division}")
+
+modulo = operandoA % operandoB
+print(f"El residuo es de: {modulo}")
+
+exponente = operandoA ** operandoB
+print(f"El resultado es: {exponente}")
+
+
+alto = int(input('Digite el valor de altura del rectangulo: '))
+ancho = int(input('Digite el valor del ancho del rectangulo: '))
+area = alto * ancho
+perimetro = (alto + ancho) * 2
+print('Area: ', area)
+print('Perimetro', perimetro)
+
+
+miVariable3 = 10
+print(miVariable3)
+
+# Operadores de reasignacion
+
+miVariable3 = miVariable3 + 1
+print(miVariable3)
+
+miVariable3 += 1
+print(miVariable3)
+
+miVariable3 -= 2
+print(miVariable3)
+
+miVariable3 *= 3
+print(miVariable3)
+
+miVariable3 /= 2
+print(int(miVariable3))
+
+
+# Operadores de comparacion
+d = 4
+b = 4
+resultado = d == b
+print(resultado)
+
+#Operador diferente
+resultado = d != b
+print(resultado)
+
+#Operador Mayor o Menor
+resultado = d > b
+print(resultado)
+
+#Menor o igual
+resutlado = d <= b
+print(resultado)
+'''
+
+num = int(input('Digite un numero: '))
+if num % 2 == 0:
+    print(f'El numero {num} que ustedes selecciono es par')
+else:
+    print(f'El numero {num} que ustede selecciono es impar')
+
+
+edad = int(input('Digite cual es su edad: '))
+if edad >= 18:
+    print(f'Su edad es de {edad} años, usted es mayor de edad')
+else:
+    print(f'Su edad es de {edad} años, usted es menor de edad')
