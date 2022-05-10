@@ -118,7 +118,7 @@ print(resultado)
 #Menor o igual
 resutlado = d <= b
 print(resultado)
-'''
+
 
 num = int(input('Digite un numero: '))
 if num % 2 == 0:
@@ -132,3 +132,47 @@ if edad >= 18:
     print(f'Su edad es de {edad} años, usted es mayor de edad')
 else:
     print(f'Su edad es de {edad} años, usted es menor de edad')
+
+
+num = int(input('Digite un numerito:'))
+if num >= 0 and num <= 5:
+     print(f"Su numero {num} esta entre el 0 y el 5")
+
+else:
+    print(f"Su numero {num} esta fuera del rango")
+
+
+edad = int(input("Cual es su edad?: "))
+if edad >= 20 and edad <= 30:
+    print("La edad esta dentro del rango")
+elif edad <20 or edad > 30:
+    print("Fuera del rango")
+
+
+num1 = int(input("Digite un numero: "))
+num2 = int(input("Digite el segundu numero: "))
+
+if num1 > num2:
+    print(f"El numero mayorm es {num1}")
+elif num1 < num2:
+    print(f"El numero mayor es {num2}")
+else:
+    print("Los numeros son iguales")
+'''
+print("Digite los datos del libro: ")
+nombre = input("Digite el nombre del libro: ")
+id = int(input("Digite el id del libro: "))
+precio = float(input("Digite el precio del libro: "))
+envioGratuito = (input("El envio es gratuito? Si o No: "))
+if envioGratuito == "Si":
+    envioGratuito = True
+elif envioGratuito == "No":
+    envioGratuito = False
+else:
+    envioGratuito = "El dato ingresado es incorrecto, ingrese SI O NO"
+print(f"""
+        Nombre: {nombre}
+        id: {id}
+        Precio: {precio}
+        Envio gratuito: {envioGratuito}
+""")
