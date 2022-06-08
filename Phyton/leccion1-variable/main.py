@@ -159,20 +159,20 @@ elif num1 < num2:
 else:
     print("Los numeros son iguales")
 '''
-print("Digite los datos del libro: ")
-nombre = input("Digite el nombre del libro: ")
-id = int(input("Digite el id del libro: "))
-precio = float(input("Digite el precio del libro: "))
-envioGratuito = (input("El envio es gratuito? Si o No: "))
-if envioGratuito == "Si":
-    envioGratuito = True
-elif envioGratuito == "No":
-    envioGratuito = False
-else:
-    envioGratuito = "El dato ingresado es incorrecto, ingrese SI O NO"
-print(f"""
-        Nombre: {nombre}
-        id: {id}
-        Precio: {precio}
-        Envio gratuito: {envioGratuito}
+# print("Digite los datos del libro: ")
+# nombre = input("Digite el nombre del libro: ")
+# id = int(input("Digite el id del libro: "))
+# precio = float(input("Digite el precio del libro: "))
+# envioGratuito = (input("El envio es gratuito? Si o No: "))
+# if envioGratuito == "Si":
+#     envioGratuito = True
+# elif envioGratuito == "No":
+#     envioGratuito = False
+# else:
+#     envioGratuito = "El dato ingresado es incorrecto, ingrese SI O NO"
+# print(f"""
+#         Nombre: {nombre}
+#         id: {id}
+#         Precio: {precio}
+#         Envio gratuito: {envioGratuito}
 """)

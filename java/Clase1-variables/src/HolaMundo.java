@@ -151,7 +151,7 @@ public class HolaMundo {
         else
             System.out.println("Es un numero impar");
 
- */
+
         int varNum1 = 1, varNum2 = 4;
         int varNum3 = varNum1 + 6 - varNum2;
         System.out.println("varNum3 = " + varNum3);
@@ -171,7 +171,101 @@ public class HolaMundo {
         varNum2 %= 6;
         System.out.println("varNum2 % = " + varNum2);
 
+ 
+        var varA = 7;
+        var varB= -varA;
+        System.out.println("VarA = " + varA);
+        System.out.println("VarB = " + varB);
 
+        //Operador de Negacion
+        var varC = true;
+        var varD = !varC;
+        System.out.println("varC = "+ varC);
+        System.out.println("varD = "+ varD);
+
+        var varE = 9;
+        var varF = ++varE;
+        //Primero se incrementa la variable y despues se usa el valor
+        System.out.println("varE = " + varE);
+        System.out.println("varF = " + varF);
+
+        //Postincremento
+        var varG = 3;
+        var varH = varG++;
+
+        System.out.println("varG = " + varG);
+        System.out.println("varH = " + varH);
+        
+        //Operadores unarios de decremento
+        
+        var varI = 4;
+        var varJ = --varI;
+
+        System.out.println("varI = " + varI);
+        System.out.println("varJ = " + varJ);
+        
+        var varK = 8;
+        var varL = varK--;
+
+        System.out.println("varK = " + varK);
+        System.out.println("varL = " + varL);
+
+
+        
+        //Operadores de igualdad y relacionales
+        
+        var aNum = 5;
+        var bNum = 4;
+        var cNum = (aNum == bNum);
+        System.out.println("cNum = " + cNum);
+
+        var dNum = (aNum != bNum);
+        System.out.println("dNum = " + dNum);
+        
+        var cadenaA = "Hello";
+        var cadenaB = "Bye";
+        var cVar = cadenaA == cadenaB;
+        System.out.println("cVar = " + cVar);
+        
+        var fVar = cadenaA.equals(cadenaB);
+        System.out.println("fVar = " + fVar);
+        
+        var gVar = aNum >= bNum; //OPERADORES RELACIONALES
+        System.out.println("gVar = " + gVar);
+
+
+        var valorA = 7;
+        var valorMin = 0; //Rango del 0 al 10;
+        var varloMax = 10;
+        var respuesta = valorA >= 0 && valorA <= 10;
+        if(respuesta == true)
+            System.out.println("Esta dentro del rango");
+        else
+            System.out.println("Esta fuera del rango");
+
+        var vacaciones = true;
+        var diaLibre = false;
+        if (vacaciones || diaLibre)
+            System.out.println("Papa puede asistir al juego de su hijo");
+        else
+            System.out.println("Papa no puede asistir al juego de su hijo");
+
+
+
+        //Operador ternario
+
+        var resultadoT = (5>8) ? "Verdader" : "Falso";
+        System.out.println("resultadoT = " + resultadoT);
+
+        var numeroT = 7;
+        resultadoT= (numeroT %2 ==0) ? "par" : "Impar";
+        System.out.println("resultadoT = " + resultadoT);
+        
+ */
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("z = " + z);
 
 
 
