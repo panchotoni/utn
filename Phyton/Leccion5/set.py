@@ -66,6 +66,8 @@ conjunto1 = frozenset
 
 
 #***************************DICCIONARIO*************************************"
+print("*******************DICCIONARIO********************")
+
 #Son como los objetos de js
 
 diccionario = {
@@ -137,6 +139,36 @@ seleccionArg = {
 }
 for i, j in seleccionArg.items():
     print(i, j)
+
+#*******************PILAS USANDO LISTAS*************************
+print("*******************PILAS********************")
+pila = [1, 2, 3]
+#Agregamos el elemento al final
+pila.append(4)
+pila.append(5)
+print(pila)
+
+#Sacamos el elemento del final
+elementoPopeado = pila.pop()
+print(pila)
+print(elementoPopeado)
+
+#*******************COLAS CON LISTAS*****************************
+#FIFO(First in, first out)
+print("*******************COLAS********************")
+cola = ["Ariel","Naty","Pancho"]
+
+cola.append("Yayo")
+cola.append("Julian")
+print(cola)
+cola.pop(0)
+print(cola)
+
+
+
+
+
+
 
 
 
