@@ -1,3 +1,4 @@
+import math
 #SETTTTTTTTTT
 #Son como listas pero no tienen un orden
 planetas = {"Marte", "Jupiter", "Venus"}
@@ -165,6 +166,15 @@ cola.pop(0)
 print(cola)
 
 
+#*******************CLASE MATH*****************
+
+num = int(input("Digite un numero"))
+
+while num < 0:
+    print("El numero es negativo")
+    num = int(input("Digite un numero"))
+
+print(f"La raiz cuadrada es {math.sqrt(num)}")
 
 
 
